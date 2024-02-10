@@ -32,13 +32,33 @@ interface LandingProps {
             </div>
           </header>
           <main>
-            <section>
-              <h2 className="text-xl font-semibold mt-8 mb-4">projects</h2>
-              <div className="space-y-6">
-                {/* Project items */}
-              </div>
-            </section>
-          </main>
+  <section>
+    <h3 className="text-lg font-semibold mt-8 mb-4">Projects</h3>
+    <div className="space-y-6">
+      <div>
+        <h5 className="text-md font-semibold">FakeNews</h5>
+        <p className="text-sm">A Machine Learning and Natural Language Processing Approach to Detecting Fake News</p>
+      </div>
+      <div>
+      <h5 className="text-md font-semibold">Card Games</h5>
+        <p className="text-sm">Generic text based cards game implemented using a variety of design patterns</p>
+      </div>
+      <div>
+      <h5 className="text-md font-semibold flex items-center">
+          Expression Calculator{" "}
+          <span className="inline-flex items-center rounded-full whitespace-nowrap border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 border-transparent bg-custom-orange text-white hover:bg-custom-orange/80 ml-2">
+            Archived
+          </span>
+        </h5>
+        <p className="text-sm">Software for calculating mathematical expressions as used inn calculators</p>
+      </div>
+      <div>
+        <h5 className="text-md font-semibold">Portfolio</h5>
+        <p className="text-sm">Source code for this portfolio</p>
+      </div>
+    </div>
+  </section>
+</main>
         </div>
       </div>
     );
