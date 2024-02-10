@@ -17,19 +17,9 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
             <h1 className="text-xl font-bold">AJ Seeni</h1>
             <div className="relative text-sm">
               <span className="absolute inset-0 overflow-hidden">
-                <span className="block animate-slide">Software Engineer</span>
-                <span
-                  className="block animate-slide"
-                  style={{ animationDelay: "2.5s" }}
-                >
-                  Product Lead
-                </span>
-                <span
-                  className="block animate-slide"
-                  style={{ animationDelay: "5s" }}
-                >
-                  Photographer
-                </span>
+                <span className="block animate-slide absolute h-full w-full -translate-y-full" >Software Engineer</span>
+                <span className="block animate-slide absolute h-full w-full -translate-y-full" style={{ animationDelay: "4s" }}>Product Lead</span>
+                <span className="block animate-slide absolute h-full w-full -translate-y-full" style={{ animationDelay: "8s" }}>Creative</span>
               </span>
               {/* Placeholder text to maintain the space */}
               <span className="invisible">Software Engineer</span>
