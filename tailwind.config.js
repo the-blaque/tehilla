@@ -8,7 +8,7 @@ module.exports = {
         "custom-orange": "#FE621D",
       },
       animation: {
-        slide: "slide 4s linear infinite",
+        slide: "slide 2.5s linear infinite",
       },
       keyframes: {
         slide: {
