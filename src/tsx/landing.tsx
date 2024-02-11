@@ -17,9 +17,21 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
             <h1 className="text-xl font-bold">AJ Seeni</h1>
             <div className="relative text-sm">
               <span className="absolute inset-0 overflow-hidden">
-                <span className="block animate-slide absolute h-full w-full -translate-y-full" >Software Engineer</span>
-                <span className="block animate-slide absolute h-full w-full -translate-y-full" style={{ animationDelay: "0.83s" }}>Product Lead</span>
-                <span className="block animate-slide absolute h-full w-full -translate-y-full" style={{ animationDelay: "1.83s" }}>Creative</span>
+                <span className="block animate-slide absolute h-full w-full -translate-y-full">
+                  Software Engineer
+                </span>
+                <span
+                  className="block animate-slide absolute h-full w-full -translate-y-full"
+                  style={{ animationDelay: "0.83s" }}
+                >
+                  Product Lead
+                </span>
+                <span
+                  className="block animate-slide absolute h-full w-full -translate-y-full"
+                  style={{ animationDelay: "1.83s" }}
+                >
+                  Creative
+                </span>
               </span>
               {/* Placeholder text to maintain the space */}
               <span className="invisible">Software Engineer</span>
@@ -56,16 +68,25 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
           </div>
         </header>
         <main>
-        <section className="mb-8">
-            <h3 className="text-lg font-semibold mt-8">Bio</h3>
-            <p className="mt-4 text-sm">
-            A jack of many trades, oftentimes better than a master of one. Worked in full-stack development, sales, marketing and product, and design. </p>
-            <p className="mt-4 text-sm">
-            All work and no play makes me a dull boy; thus, when I'm not stuck behind a computer screen, I enjoy cooking and traveling, always seeking new perspectives and inspiration.
+          <section className="mb-8">
+            <h3 className="text-lg font-semibold mt-4">Bio</h3>
+            <p className="mt-2 text-sm">
+              A jack of many trades, often better than a master of one.
+              I have worked in full-stack development, sales, marketing, product,
+              and design. I often moonlight as a photographer.{" "}
             </p>
+            <p className="mt-2 text-sm">
+              All work and no play makes this 'jack' a dull boy;thus, when I'm not stuck
+              behind a computer screen, I enjoy cooking, traveling and discoveing new sounds — always
+              seeking new perspectives and inspiration.
+            </p>
+            <div className="flex justify-between mt-4">
+            <a href="/about" className="text-sm text-custom-orange cursor-pointer hover:underline">Learn more about me →</a>
+            <a href="/resume" className="text-sm text-custom-orange cursor-pointer hover:underline">View my resume →</a>
+            </div>
           </section>
           <section>
-            <h3 className="text-lg font-semibold mt-8 mb-4">Projects</h3>
+            <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
             <div className="space-y-6">
               {/* Project links updated to open in new tabs */}
               <div>
@@ -73,7 +94,7 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
                   href="https://github.com/the-blaque/FakeNews"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-custom-orange"
+                  className="hover:text-custom-orange underline"
                 >
                   <h5 className="text-md font-semibold">FakeNews</h5>
                 </a>
@@ -87,7 +108,7 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
                   href="https://github.com/the-blaque/Software-Development-CPSC-2720-"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-custom-orange"
+                  className="hover:text-custom-orange underline"
                 >
                   <h5 className="text-md font-semibold">Card Games</h5>
                 </a>
@@ -101,7 +122,7 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
                   href="https://github.com/the-blaque/EXPRESSION-CALCULATOR"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-custom-orange"
+                  className="hover:text-custom-orange underline"
                 >
                   <h5 className="text-md font-semibold flex items-center">
                     Expression Calculator
@@ -117,7 +138,7 @@ const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
                   href="https://github.com/the-blaque/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-custom-orange"
+                  className="hover:text-custom-orange underline"
                 >
                   <h5 className="text-md font-semibold">Portfolio</h5>
                 </a>

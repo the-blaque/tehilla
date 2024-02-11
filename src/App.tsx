@@ -1,10 +1,9 @@
-import {useState, useEffect} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Landing from './tsx/landing';
+import { useState, useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Landing from "./tsx/landing";
 
 function App() {
-
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
@@ -34,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-  < Landing theme={theme} toggleTheme={toggleTheme} />
+      <Landing theme={theme} toggleTheme={toggleTheme} />
     </div>
   );
 }
