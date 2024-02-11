@@ -1,4 +1,10 @@
 import { useState, useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 import { TbSunset2 } from "react-icons/tb";
 import { IoLogoLinkedin } from "react-icons/io";
 import { AiFillGithub } from "react-icons/ai";
@@ -6,6 +12,7 @@ import { GiMoonBats } from "react-icons/gi";
 
 import "./App.css";
 import Landing from "./tsx/landing";
+import Resume from "./tsx/resume";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -94,7 +101,12 @@ function App() {
               )}
             </div>
           </header>
-          <Landing />
+          <Router>
+          <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+          </Router>
         </div>
       </div>
     </div>

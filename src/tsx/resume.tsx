@@ -1,36 +1,17 @@
-const Landing: React.FC = () => {
+const Resume: React.FC = () => {
   return (
     <main>
       <section className="mb-8">
-        <h3 className="text-lg font-semibold mt-4">Bio</h3>
+        <h3 className="text-lg font-semibold mt-4">Professional Experience</h3>
         <p className="mt-2 text-sm">
-          A jack of many trades, often better than a master of one. I have
-          worked in full-stack development, sales, marketing, product, and
-          design. I often moonlight as a photographer.{" "}
+          experiences here{" "}
         </p>
         <p className="mt-2 text-sm">
-          All work and no play makes this 'jack' a dull boy;thus, when I'm not
-          stuck behind a computer screen, I enjoy cooking, traveling and
-          discoveing new sounds — always seeking new perspectives and
-          inspiration.
+          more stuff here
         </p>
-        <div className="flex justify-between mt-4">
-          <a
-            href="/about"
-            className="text-sm text-custom-orange cursor-pointer hover:underline"
-          >
-            Learn more about me →
-          </a>
-          <a
-            href="/resume"
-            className="text-sm text-custom-orange cursor-pointer hover:underline"
-          >
-            View my resume →
-          </a>
-        </div>
       </section>
       <section>
-        <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
+        <h3 className="text-lg font-semibold mt-8 mb-2">Education</h3>
         <div className="space-y-6">
           <div>
             <a
@@ -88,9 +69,17 @@ const Landing: React.FC = () => {
             <p className="text-sm">Source code for this portfolio</p>
           </div>
         </div>
+        < br/>
+        < br/>
+        <a
+            href="/"
+            className="text-sm text-custom-orange cursor-pointer hover:underline"
+          >
+            Go Back ←
+          </a>
       </section>
     </main>
   );
 };
 
-export default Landing;
+export default Resume;
