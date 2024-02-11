@@ -94,7 +94,7 @@ function App() {
               )}
             </div>
           </header>
-          <Landing theme={theme} toggleTheme={toggleTheme} />
+          <Landing />
         </div>
       </div>
     </div>

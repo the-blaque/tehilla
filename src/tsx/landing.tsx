@@ -1,9 +1,4 @@
-interface LandingProps {
-  theme: string;
-  toggleTheme: () => void; // Function that toggles the theme
-}
-
-const Landing: React.FC<LandingProps> = ({ theme, toggleTheme }) => {
+const Landing: React.FC = () => {
   return (
     <main>
       <section className="mb-8">
