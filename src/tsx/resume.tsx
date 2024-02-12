@@ -1,6 +1,48 @@
 const Resume: React.FC = () => {
   return (
     <main>
+      <section>
+        <h3 className="text-lg font-semibold mt-8 mb-2">Skills</h3>
+        <div className="space-y-6">
+          <div>
+            <h5 className="text-md font-semibold">Technical</h5>
+            <ul className="list-disc pl-5">
+              <li className="text-sm mt-3">
+                Programming & Development: C++, Python, PHP, JavaScript, HTML,
+                CSS, SQL, and Bash.
+              </li>
+              <li className="text-sm mt-3">
+                Frameworks: React, Bootstrap, Tailwind, Laravel, Express, Remix,
+                JQuery
+              </li>
+              <li className="text-sm mt-3">
+                Runtime Environment & Servers: Node.js, Nginx
+              </li>
+              <li className="text-sm mt-3">
+                Project Management: Agile Delivery, Jira. Confluence
+              </li>
+              <li className="text-sm mt-3">CRM & CMS: HubSpot, WordPress</li>
+              <li className="text-sm mt-3">
+                Design: Adobe Illustrator, Photoshop
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h5 className="text-md font-semibold">Soft</h5>
+            <div className="flex text-sm">
+              <div className="before:content-['•'] before:px-2">
+                Critical Thinking and Problem-Solving
+              </div>
+              <div className="before:content-['•'] before:px-2">
+                Strategic Storytelling
+              </div>
+              <div className="before:content-['•'] before:px-2">
+                Entrepreneurial Leadership
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="mb-8">
         <h3 className="text-lg font-semibold mt-8 mb-2">
           Professional Experience
