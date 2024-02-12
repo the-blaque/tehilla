@@ -11,7 +11,7 @@ const Landing: React.FC = () => {
         <p className="mt-2 text-sm">
           All work and no play makes this 'jack' a dull boy;thus, when I'm not
           stuck behind a computer screen, I enjoy cooking, traveling and
-          discoveing new sounds — always seeking new perspectives and
+          discovering new sounds — always seeking new perspectives and
           inspiration.
         </p>
         <div className="flex justify-between mt-4">
