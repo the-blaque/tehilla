@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { TbSunset2 } from "react-icons/tb";
 import { IoLogoLinkedin } from "react-icons/io";
 import { AiFillGithub } from "react-icons/ai";
