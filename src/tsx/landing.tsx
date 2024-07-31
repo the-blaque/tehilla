@@ -1,94 +1,32 @@
+import CountdownTimer from "./countdown";
+import About from "./about";
+// import VideoPlayer from "./videoplayer";
+
 const Landing: React.FC = () => {
+  const targetDate = new Date("2024-09-13T18:30:00");
+
   return (
     <main>
-      <section className="mb-8">
-        <h3 className="text-lg font-semibold mt-4">Bio</h3>
-        <p className="mt-2 text-sm">
-          A jack of many trades, often better than a master of one. I have
-          worked in full-stack development, sales, marketing, product, and
-          design. I often moonlight as a photographer.{" "}
-        </p>
-        <p className="mt-2 text-sm">
-          All work and no play makes this 'jack' a dull boy;thus, when I'm not
-          stuck behind a computer screen, I enjoy cooking, traveling and
-          discovering new sounds — always seeking new perspectives and
-          inspiration.
-        </p>
-        <div className="flex justify-between mt-4">
-          <a
-            href="/about"
-            className="text-sm text-custom-orange cursor-pointer hover:underline"
-          >
-            Learn more about me →
-          </a>
-          <a
-            href="/resume"
-            className="text-sm text-custom-orange cursor-pointer hover:underline"
-          >
-            View my resume →
-          </a>
+      <div>
+        <div className="items-center justify-center text-center">
+          <div className=" py-10 space-y-4">
+          <h1 className="text-3xl text-indigo-900 md:text-4xl lg:text-5xl font-bold tracking-tight">
+              Tehillah 3.0
+            </h1>
+            <p className="text-lg text-indigo-500">
+              The fruit of our lips
+            </p>
+            <p className="text-base max-w-[800px] mx-auto">
+            "Through Jesus, therefore, let us continually offer to God a sacrifice of praise—the fruit of lips that openly profess his name.""
+            </p>
+            <p className="text-sm max-w-[800px] mx-auto">
+              Hebrews 13:15
+            </p>
+          </div>
+          <CountdownTimer targetDate={targetDate} />
+          <About />
         </div>
-      </section>
-      <section>
-        <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
-        <div className="space-y-6">
-          <div>
-            <a
-              href="https://github.com/the-blaque/FakeNews"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold">FakeNews</h5>
-            </a>
-            <p className="text-sm">
-              A Machine Learning and Natural Language Processing Approach to
-              Detecting Fake News
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://github.com/the-blaque/Software-Development-CPSC-2720-"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold">Card Games</h5>
-            </a>
-            <p className="text-sm">
-              Generic text-based cards game implemented using a variety of
-              design patterns
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://github.com/the-blaque/EXPRESSION-CALCULATOR"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold flex items-center">
-                Expression Calculator
-              </h5>
-            </a>
-            <p className="text-sm">
-              Software for calculating mathematical expressions as used in
-              calculators
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://github.com/the-blaque/portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold">Portfolio</h5>
-            </a>
-            <p className="text-sm">Source code for this portfolio</p>
-          </div>
-        </div>
-      </section>
+      </div>
     </main>
   );
 };
