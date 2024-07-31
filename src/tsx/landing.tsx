@@ -9,7 +9,7 @@ const Landing: React.FC = () => {
     <main>
       <div>
         <div className="items-center justify-center text-center">
-          <div className=" py-10 space-y-4">
+          <div id="top" className=" py-10 space-y-4">
           <h1 className="text-3xl text-indigo-900 md:text-4xl lg:text-5xl font-bold tracking-tight">
               Tehillah 3.0
             </h1>

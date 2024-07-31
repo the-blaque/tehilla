@@ -79,11 +79,11 @@ const About: React.FC = () => {
         <main className="flex-1 items-center justify-center text-center">
           <section className="py-12 md:py-16 lg:py-20" id="about">
             <div className="container px-4 md:px-6 space-y-8">
-              <div className="text-center">
+              <div className="text-center space-y-8">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
                   About Tehillah
                 </h2>
-                <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-[700px] mx-auto">
+                <p className="text-base text-muted-foreground max-w-[700px] mx-auto">
                   Tehillah Gospel Concert by David&#39;s Trybe, supported by
                   Freedom House RCCG Lethbridge, is an exuberant and impactful
                   musical event that combines the power of gospel music with a
@@ -99,7 +99,7 @@ const About: React.FC = () => {
               >
                 Learn More →
               </a></span> */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
                     src="/placeholder.svg"
