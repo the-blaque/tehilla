@@ -23,6 +23,8 @@ const About: React.FC = () => {
               <a
                 href="https://www.youtube.com/@freedomhouserccg/search?query=tehillah"
                 className="inline-flex items-center gap-2 text-muted-foreground hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Watch Past Concerts →
               </a>
@@ -31,37 +33,48 @@ const About: React.FC = () => {
         </div>
 
         <section className="bg-muted py-2 items-center justify-center">
-      <div className="container">
-        <div className="mx-auto space-y-6 text-center">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Event Details</h2>
-            <p className="text-muted-foreground md:text-lg">Join us for an unforgettable experience.</p>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
-            <div className="rounded-lg bg-background p-6 shadow-sm">
-              <div className="flex flex-col items-start gap-2">
-                <div className="text-sm font-medium text-muted-foreground">Date</div>
-                <div className="text-2xl font-bold">September 20, 2024</div>
+          <div className="container">
+            <div className="mx-auto space-y-6 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  Event Details
+                </h2>
+                <p className="text-muted-foreground md:text-lg">
+                  Join us for an unforgettable experience.
+                </p>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
+                <div className="rounded-lg bg-background p-6 shadow-sm">
+                  <div className="flex flex-col items-start gap-2">
+                    <div className="text-sm font-medium text-muted-foreground">
+                      Date
+                    </div>
+                    <div className="text-2xl font-bold">September 20, 2024</div>
+                  </div>
+                </div>
+                <div className="rounded-lg bg-background p-6 shadow-sm">
+                  <div className="flex flex-col items-start gap-2">
+                    <div className="text-sm font-medium text-muted-foreground">
+                      Time
+                    </div>
+                    <div className="text-2xl font-bold">5:00 PM - 11:00 PM</div>
+                  </div>
+                </div>
+              </div>
+              <div className="rounded-lg bg-background p-6 shadow-sm">
+                <div className="flex flex-col items-start gap-2">
+                  <div className="text-sm font-medium text-muted-foreground">
+                    Venue
+                  </div>
+                  <div className="text-lg font-medium">
+                    Yates Memorial Centre/Sterndale Bennett Theatre - 1002 4 Ave
+                    S, Lethbridge, AB T1J 0P5
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="rounded-lg bg-background p-6 shadow-sm">
-              <div className="flex flex-col items-start gap-2">
-                <div className="text-sm font-medium text-muted-foreground">Time</div>
-                <div className="text-2xl font-bold">5:00 PM - 11:00 PM</div>
-              </div>
-            </div>
           </div>
-          <div className="rounded-lg bg-background p-6 shadow-sm">
-            <div className="flex flex-col items-start gap-2">
-              <div className="text-sm font-medium text-muted-foreground">Venue</div>
-              <div className="text-lg font-medium">
-                Yates Memorial Centre/Sterndale Bennett Theatre - 1002 4 Ave S, Lethbridge, AB T1J 0P5
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
         <main className="flex-1 items-center justify-center text-center">
           <section className="py-12 md:py-16 lg:py-20" id="about">
