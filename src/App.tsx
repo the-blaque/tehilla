@@ -53,7 +53,7 @@ function App() {
               />
             </div>
 
-            <div className="flex items-center space-x-4 py-0 px-8 text-xs text-center">
+            <div className="flex items-center space-x-4 py-0 px-8 text-xs md:text-base lg:text-base text-center">
               <Link
                 to="home" // ID of the target section for "About"
                 spy={true}
