@@ -85,10 +85,10 @@ function App() {
           </header>
           <div className="w-screen lg:h-screen p-0">
             <iframe
-              src="https://player.vimeo.com/video/993008930?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;autoplay=1&amp;loop=1&amp;background=1&amp;muted=1"
-              allow="autoplay;clipboard-write"
+              src="https://player.vimeo.com/video/993008930?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0"
+              allow="autoplay"
               title="Tehillah Teaser"
-              className=" w-screen h-3/4 md:h-screen p-0 m-0 mt-10"
+              className="w-screen h-screen p-0 m-0 mt-10"
             ></iframe>
           </div>
           <div className="max-w-4xl mx-auto px-8">
