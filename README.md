@@ -1,5 +1,5 @@
-# My Personal Portfolio
+# Webpage for Tehillah
 
-Portfolio built in React & Tailwind
+Built in React & Tailwind
 ## Inspired by
 [shadcn](https://shadcn.com/) and [Julien Thibeaut](https://www.julienthibeaut.xyz/)
