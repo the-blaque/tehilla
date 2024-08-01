@@ -53,11 +53,11 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 <div className="rounded-lg bg-background p-6 shadow-sm">
-                  <div className="flex flex-col items-start gap-2">
-                    <div className="text-sm font-medium text-muted-foreground">
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="text-sm font-medium text-muted-foreground text-center">
                       Time
                     </div>
-                    <div className="text-2xl font-bold">5:00 PM - 11:00 PM</div>
+                    <div className="text-2xl font-bold text-center">5:00 PM - 11:00 PM</div>
                   </div>
                 </div>
               </div>
