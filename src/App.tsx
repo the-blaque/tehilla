@@ -45,7 +45,7 @@ function App() {
       <div className="min-h-screen max-w-full overflow-hidden bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
         <div className="flex flex-col">
           <header className=" bg-white dark:bg-black flex fixed w-full top-0 justify-between items-center z-50">
-            <div className="w-1/5 lg:w-2/12 p-12 pt-0">
+            <div className=" w-6/12 md:w-6/12  lg:w-2/12 p-12 pt-0 pb-0">
               <img
                 src={Logo}
                 alt="David's trybe"
@@ -53,7 +53,7 @@ function App() {
               />
             </div>
 
-            <div className="flex items-center space-x-4 py-0 px-8">
+            <div className="flex items-center space-x-4 py-0 px-8 text-xs text-center">
               <Link
                 to="home" // ID of the target section for "About"
                 spy={true}
@@ -68,7 +68,7 @@ function App() {
                 href="mailto:your-email@example.com" // Replace this with your actual email address
                 className="bg-indigo-900 p-2 rounded-md text-white cursor-pointer transition-colors duration-300"
               >
-                Contact Us
+                Contact
               </a>
               {theme === "light" ? (
                 <GiMoonBats
@@ -83,7 +83,7 @@ function App() {
               )}
             </div>
           </header>
-          <div className="w-screen h-screen p-0 mb-20">
+          <div className="w-screen lg:h-screen p-0 mb-20">
             <iframe
               src="https://player.vimeo.com/video/993008930?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;controls=0&amp;autoplay=1&amp;loop=1&amp;background=1&amp;muted=1"
               allow="autoplay;clipboard-write"
