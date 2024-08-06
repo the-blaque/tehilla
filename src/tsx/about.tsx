@@ -1,3 +1,14 @@
+import fret from "../assets/image0 (1).jpeg";
+import deb from "../assets/image1.jpeg";
+import dan from "../assets/image2.jpeg";
+import Racheal from "../assets/image3.jpeg";
+import Emmanuel from "../assets/image4.jpeg";
+import Oreoluwa from "../assets/image5.jpeg";
+import Rukevwe from "../assets/image7.jpeg";
+import Trybe from "../assets/image8.jpeg";
+import Victor from "../assets/image10.jpeg";
+import Toyin from "../assets/image9.jpeg";
+
 const About: React.FC = () => {
   return (
     <>
@@ -17,9 +28,15 @@ const About: React.FC = () => {
               joy.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button className="bg-indigo-900 text-white font-bold py-2 px-4 rounded">
-                Reserve Your Spot
-              </button>
+              <a
+                href="https://www.eventbrite.com/e/tehillah-30-tickets-978672554957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bg-indigo-900 text-white font-bold py-2 px-4 rounded">
+                  Reserve Your Spot
+                </button>
+              </a>
               <a
                 href="https://www.youtube.com/@freedomhouserccg/search?query=tehillah"
                 className="inline-flex items-center gap-2 text-muted-foreground hover:underline"
@@ -57,7 +74,9 @@ const About: React.FC = () => {
                     <div className="text-sm font-medium text-muted-foreground text-center">
                       Time
                     </div>
-                    <div className="text-2xl font-bold text-center">5:00 PM - 11:00 PM</div>
+                    <div className="text-2xl font-bold text-center">
+                      5:00 PM - 11:00 PM
+                    </div>
                   </div>
                 </div>
               </div>
@@ -102,80 +121,136 @@ const About: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
-                    src="/placeholder.svg"
+                    src={fret}
                     width={400}
                     height={400}
-                    alt="David"
+                    alt="Joel Olubunmi (Fretless)"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">David</h3>
-                    <p className="text-muted-foreground">Lead Vocalist</p>
+                    <h3 className="text-xl font-bold">
+                      Joel Olubunmi (Fretless)
+                    </h3>
+                    <p className="text-muted-foreground">U.K</p>
                   </div>
                 </div>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/placeholder.svg"
+                    src={deb}
                     width={400}
                     height={400}
-                    alt="Esther"
-                    className="w-full h-48 object-cover"
+                    alt="Debbie Ojo"
+                    className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Esther</h3>
-                    <p className="text-muted-foreground">Worship Leader</p>
+                    <h3 className="text-xl font-bold">Debbie Ojo</h3>
+                    <p className="text-muted-foreground">Calgary</p>
                   </div>
                 </div>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                   <img
-                    src="/placeholder.svg"
+                    src={dan}
                     width={400}
                     height={400}
-                    alt="Michael"
-                    className="w-full h-48 object-cover"
+                    alt="Daniel Olubunmi"
+                    className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Michael</h3>
-                    <p className="text-muted-foreground">Instrumentalist</p>
+                    <h3 className="text-xl font-bold">Daniel Olubunmi</h3>
+                    <p className="text-muted-foreground">U.K</p>
                   </div>
                 </div>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
-                    src="/placeholder.svg"
+                    src={Racheal}
                     width={400}
                     height={400}
-                    alt="David"
-                    className="w-full h-48 object-cover"
+                    alt="Racheal Obasan"
+                    className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">David</h3>
-                    <p className="text-muted-foreground">Lead Vocalist</p>
+                    <h3 className="text-xl font-bold">Racheal Obasan</h3>
+                    <p className="text-muted-foreground">Edmonton</p>
                   </div>
                 </div>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
-                    src="/placeholder.svg"
+                    src={Emmanuel}
                     width={400}
                     height={400}
-                    alt="David"
+                    alt="Emmanuel Patrick Aka ETG- Emmanuel the Great"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">David</h3>
-                    <p className="text-muted-foreground">Lead Vocalist</p>
+                    <h3 className="text-xl font-bold">
+                      Emmanuel Patrick <br /> (Aka ETG- Emmanuel the Great)
+                    </h3>
+                    <p className="text-muted-foreground">USA</p>
                   </div>
                 </div>
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
-                    src="/placeholder.svg"
+                    src={Oreoluwa}
                     width={400}
                     height={400}
-                    alt="David"
-                    className="w-full h-48 object-cover"
+                    alt="Oreoluwa Akanbi"
+                    className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">David</h3>
-                    <p className="text-muted-foreground">Lead Vocalist</p>
+                    <h3 className="text-xl font-bold">Oreoluwa Akanbi</h3>
+                    <p className="text-muted-foreground">Calgary</p>
+                  </div>
+                </div>
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Rukevwe}
+                    width={400}
+                    height={400}
+                    alt="Rukevwe"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Rukevwe Igbecha</h3>
+                    <p className="text-muted-foreground">Toronto</p>
+                  </div>
+                </div>
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Victor}
+                    width={400}
+                    height={400}
+                    alt="Victor Olaioye"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Victor Olaioye</h3>
+                    <p className="text-muted-foreground">Edmonton</p>
+                  </div>
+                </div>
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Toyin}
+                    width={400}
+                    height={400}
+                    alt="Toyin Aladejebi"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Toyin Aladejebi</h3>
+                    <p className="text-muted-foreground">Lethbridge</p>
+                  </div>
+                </div>
+                <div className="bg-card mx-auto rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Trybe}
+                    width={400}
+                    height={400}
+                    alt="David's Trybe"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">David's Trybe</h3>
+                    <p className="text-muted-foreground">Lethbridge</p>
                   </div>
                 </div>
               </div>

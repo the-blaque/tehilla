@@ -65,7 +65,7 @@ function App() {
                 Tehillah 3.0
               </Link>
               <a
-                href="mailto:your-email@example.com" // Replace this with your actual email address
+                href="mailto:info.tehillah.canada@gmail.com" // Replace this with your actual email address
                 className="bg-indigo-900 p-2 rounded-md text-white cursor-pointer transition-colors duration-300"
               >
                 Contact
@@ -105,9 +105,15 @@ function App() {
                   &copy; 2024 Tehillah Gospel Concert. All rights reserved.
                 </p>
                 <div className="flex items-center gap-4">
-                  <button className="bg-secondary-hover bg-white text-indigo-900 font-bold py-2 px-4 rounded">
-                    Reserve Your Spot
-                  </button>
+                  <a
+                    href="https://www.eventbrite.com/e/tehillah-30-tickets-978672554957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="bg-secondary-hover bg-white text-indigo-900 font-bold py-2 px-4 rounded">
+                      Reserve Your Spot
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
