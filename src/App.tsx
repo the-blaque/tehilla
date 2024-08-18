@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { TbSunset2 } from "react-icons/tb";
 import { GiMoonBats } from "react-icons/gi";
 import Logo from "./assets/logo.png";
+import logo2 from "./assets/Logo-Dav.png"
 import flyer from "./assets/flyer.jpg"
 
 import "./App.css";
@@ -49,9 +50,9 @@ function App() {
           <header className=" bg-white dark:bg-black flex fixed w-full top-0 justify-between items-center">
             <div className=" w-6/12 md:w-6/12  lg:w-2/12 p-12 pt-0 pb-0">
               <img
-                src={Logo}
+                src={logo2}
                 alt="David's trybe"
-                className={`${theme === "light" ? "invert" : ""}`}
+                className={`${theme === "dark" ? "invert" : ""}`}
               />
             </div>
 
