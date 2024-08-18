@@ -8,14 +8,23 @@ import Rukevwe from "../assets/image7.jpeg";
 import Trybe from "../assets/image8.jpeg";
 import Victor from "../assets/image10.jpeg";
 import Toyin from "../assets/image9.jpeg";
+import Ayo from "../assets/ayo.jpg"
 
 const About: React.FC = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen">
         <div className="bg-primary text-primary-foreground py-12 md:py-16 lg:py-20">
-          <div className="container px-4 md:px-6 text-center space-y-4">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight">
+          <div className="flex flex-col lg:grid lg:grid-cols-2 gap-2">
+          <div className=" justify-center items-center">
+          <iframe
+              src="https://player.vimeo.com/video/993008930?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0"
+              allow="autoplay"
+              title="Tehillah Teaser"
+            ></iframe>
+          </div>
+          <div className="container px-4 md:px-6 text-left space-y-4">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold tracking-tight">
               Experience the Power of Praise
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl max-w-[800px] mx-auto">
@@ -27,7 +36,7 @@ const About: React.FC = () => {
               gospel melodies and powerful performances that inspire hope and
               joy.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-start gap-2">
               <a
                 href="https://www.eventbrite.com/e/tehillah-30-tickets-978672554957?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
                 target="_blank"
@@ -39,13 +48,14 @@ const About: React.FC = () => {
               </a>
               <a
                 href="https://www.youtube.com/@freedomhouserccg/search?query=tehillah"
-                className="inline-flex items-center gap-2 text-muted-foreground hover:underline"
+                className="inline-flex items-center gap-2 text-muted-foreground hover:underline text-sm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Watch Past Concerts →
               </a>
             </div>
+          </div>
           </div>
         </div>
 
@@ -119,6 +129,48 @@ const About: React.FC = () => {
                 Learn More →
               </a></span> */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center">
+              <div className="bg-card rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src={deb}
+                    width={400}
+                    height={400}
+                    alt="Debbie Ojo"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Debbie Ojo</h3>
+                    <p className="text-muted-foreground">Calgary</p>
+                  </div>
+                </div>
+
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Rukevwe}
+                    width={400}
+                    height={400}
+                    alt="Rukevwe"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Rukevwe Igbecha</h3>
+                    <p className="text-muted-foreground">Toronto</p>
+                  </div>
+                </div>
+
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Victor}
+                    width={400}
+                    height={400}
+                    alt="Victor Olaioye"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Victor Olaioye</h3>
+                    <p className="text-muted-foreground">Edmonton</p>
+                  </div>
+                </div>
+
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
                     src={fret}
@@ -134,19 +186,7 @@ const About: React.FC = () => {
                     <p className="text-muted-foreground">U.K</p>
                   </div>
                 </div>
-                <div className="bg-card rounded-lg overflow-hidden shadow-lg">
-                  <img
-                    src={deb}
-                    width={400}
-                    height={400}
-                    alt="Debbie Ojo"
-                    className="w-full h-48 object-contain"
-                  />
-                  <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Debbie Ojo</h3>
-                    <p className="text-muted-foreground">Calgary</p>
-                  </div>
-                </div>
+  
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg">
                   <img
                     src={dan}
@@ -188,6 +228,27 @@ const About: React.FC = () => {
                     <p className="text-muted-foreground">USA</p>
                   </div>
                 </div>
+                
+
+
+
+                <div className="bg-card mx-auto rounded-lg overflow-hidden shadow-lg items-center justify-center">
+                  <img
+                    src={Trybe}
+                    width={400}
+                    height={400}
+                    alt="David's Trybe"
+                    className="w-full h-48 object-contain"
+                  />
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">David's Trybe</h3>
+                    <h3 className="text-base font-semibold">Host</h3>
+                    <p className="text-muted-foreground">Lethbridge</p>
+                  </div>
+                </div>
+
+                
+
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
                     src={Oreoluwa}
@@ -201,32 +262,7 @@ const About: React.FC = () => {
                     <p className="text-muted-foreground">Calgary</p>
                   </div>
                 </div>
-                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
-                  <img
-                    src={Rukevwe}
-                    width={400}
-                    height={400}
-                    alt="Rukevwe"
-                    className="w-full h-48 object-contain"
-                  />
-                  <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Rukevwe Igbecha</h3>
-                    <p className="text-muted-foreground">Toronto</p>
-                  </div>
-                </div>
-                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
-                  <img
-                    src={Victor}
-                    width={400}
-                    height={400}
-                    alt="Victor Olaioye"
-                    className="w-full h-48 object-contain"
-                  />
-                  <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Victor Olaioye</h3>
-                    <p className="text-muted-foreground">Edmonton</p>
-                  </div>
-                </div>
+
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
                     src={Toyin}
@@ -240,19 +276,36 @@ const About: React.FC = () => {
                     <p className="text-muted-foreground">Lethbridge</p>
                   </div>
                 </div>
-                <div className="bg-card mx-auto rounded-lg overflow-hidden shadow-lg items-center justify-center">
+
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg items-center justify-center">
                   <img
-                    src={Trybe}
+                    src={Ayo}
                     width={400}
                     height={400}
-                    alt="David's Trybe"
+                    alt="Ayo"
                     className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">David's Trybe</h3>
-                    <p className="text-muted-foreground">Lethbridge</p>
+                    <h3 className="text-xl font-bold">Ayo</h3>
+                    <p className="text-muted-foreground">Calgary</p>
                   </div>
                 </div>
+
+                <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Newlife Voices</h3>
+                    <p className="text-muted-foreground">Lethbridge</p>
+                  </div>
+
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">John & Sounds of Praise</h3>
+                    <p className="text-muted-foreground">Edmonton</p>
+                  </div>
+
+                  <div className="p-4 space-y-2">
+                    <h3 className="text-xl font-bold">Excel Voices</h3>
+                    <p className="text-muted-foreground">Lethbridge</p>
+                  </div>
+
               </div>
             </div>
           </section>

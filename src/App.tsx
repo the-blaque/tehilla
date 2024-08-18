@@ -3,9 +3,11 @@ import { Link } from "react-scroll";
 import { TbSunset2 } from "react-icons/tb";
 import { GiMoonBats } from "react-icons/gi";
 import Logo from "./assets/logo.png";
+import flyer from "./assets/flyer.jpg"
 
 import "./App.css";
 import Landing from "./tsx/landing";
+import SponsorCarousel from "./tsx/sponsors"
 import Footer from "./tsx/footer";
 
 function App() {
@@ -83,20 +85,21 @@ function App() {
               )}
             </div>
           </header>
-          <div className="w-screen lg:h-screen p-0">
-            <iframe
-              src="https://player.vimeo.com/video/993008930?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=0"
-              allow="autoplay"
-              title="Tehillah Teaser"
-              className="w-screen h-screen p-0 m-0 mt-10"
-            ></iframe>
+          <div className="w-screen p-0 my-10">
+          <img
+                src={flyer}
+                alt="Tehillah 3.0"
+              />
           </div>
           <div className="max-w-4xl mx-auto px-8">
             <div id="home" className="">
               <Landing />
             </div>
-            <div id="about"></div>
+            <div id="about">
+              <SponsorCarousel/>
+            </div>
           </div>
+          
 
           <footer>
             <div className="footer bg-muted w-full bg-indigo-500 text-muted-foreground py-8 md:py-12">

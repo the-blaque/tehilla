@@ -4,7 +4,7 @@ import { IoArrowUpCircleSharp } from "react-icons/io5";
 const Footer: React.FC = () => {
     return ( <>
     <div className="w-screen min-h-6 bg-indigo-900 text-white text-xs flex items-center justify-center">
-        <span> © 2024 · Hand Crafted by <a href='https://www.stratumlabs.ca/'> Statum Labs</a> · All Rights Reserved </span>
+        <span> © 2024 · Hand Crafted by <a href='https://www.stratumlabs.ca/'> Stratum Labs</a> · All Rights Reserved </span>
     </div>
     <Link
                 to="home" 
