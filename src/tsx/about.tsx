@@ -4,7 +4,7 @@ import dan from "../assets/image2.jpeg";
 import Racheal from "../assets/image3.jpeg";
 import Emmanuel from "../assets/image4.jpeg";
 import Oreoluwa from "../assets/image5.jpeg";
-import Rukevwe from "../assets/image7.jpeg";
+import Rukevwe from "../assets/PHOTO-r.jpg";
 import Trybe from "../assets/image8.jpeg";
 import Victor from "../assets/image10.jpeg";
 import Toyin from "../assets/image9.jpeg";
@@ -223,7 +223,7 @@ const About: React.FC = () => {
                   />
                   <div className="p-4 space-y-2">
                     <h3 className="text-xl font-bold">
-                      Emmanuel Patrick <br /> (Aka ETG- Emmanuel the Great)
+                      Emmanuel Patrick <br /> (ETG)
                     </h3>
                     <p className="text-muted-foreground">USA</p>
                   </div>
