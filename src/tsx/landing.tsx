@@ -3,7 +3,7 @@ import About from "./about";
 // import VideoPlayer from "./videoplayer";
 
 const Landing: React.FC = () => {
-  const targetDate = new Date("2024-09-13T18:30:00");
+  const targetDate = new Date("2024-09-20T18:30:00");
 
   return (
     <main>

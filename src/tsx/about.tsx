@@ -167,7 +167,7 @@ const About: React.FC = () => {
                     className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
-                    <h3 className="text-xl font-bold">Victor Olaioye</h3>
+                    <h3 className="text-xl font-bold">Victor Olayioye</h3>
                     <p className="text-muted-foreground">Edmonton</p>
                   </div>
                 </div>
