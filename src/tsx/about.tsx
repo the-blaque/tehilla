@@ -163,7 +163,7 @@ const About: React.FC = () => {
                     src={Victor}
                     width={400}
                     height={400}
-                    alt="Victor Olaioye"
+                    alt="Victor Olayioye"
                     className="w-full h-48 object-contain"
                   />
                   <div className="p-4 space-y-2">
